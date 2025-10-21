@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
 
-    cout<<"byee world";
+    cout<<"quiero un pan ochon";
 
-    cout<<"Holaaa";
+
 
 
 
