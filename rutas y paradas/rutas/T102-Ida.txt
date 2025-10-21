@@ -1,0 +1,25 @@
+RUTA T102 SENTIDO: PORTAL-CRESPO
+== ESTACIONES ==
+1. Portal
+2. Madre Bernarda
+3. Los Ángeles
+4. Villa Olímpica
+5. República del Líbano
+6. María Auxiliadora
+7. El Prado
+8. Bazurto
+9. Chambacú
+10. Centro
+
+== PARADAS ===
+1.	Parque de la Marina
+2.	Teatro Heredia
+3.	El Boquetillo
+4.	Frente Entrada Cabrero
+5.	DATT
+6.	Edificio Altamar
+7.	Terrazas de San Sebastián
+8.	Global Center
+9.	Parque Las Américas
+10. Puente crespito
+11. AEROPUERTO
