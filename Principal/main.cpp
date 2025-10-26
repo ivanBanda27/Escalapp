@@ -27,8 +27,6 @@ int main() {
     case 1:
         cout << "RUTA A101" << endl;
         procesarRuta("A101");
-
-        
         break;
     case 2:
         cout << "RUTA A102" << endl;

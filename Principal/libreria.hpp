@@ -60,13 +60,13 @@ bool verificarParadaEnArchivo(const string& archivo_ruta, const string& paradaBu
     }
 
     string linea;
-    int numeroLinea = 0; // para saber en qué línea está
+    int numeroLinea = 0; // para saber en qué línea está la parada
     bool encontrada = false;
 
     while (getline(archivo, linea)) {
         numeroLinea++;
 
-        // 🔹 Limpia espacios al inicio y final de la línea
+        // limpia espacios al inicio y final de la línea
         linea.erase(remove(linea.begin(), linea.end(), '\r'), linea.end());
         linea.erase(remove(linea.begin(), linea.end(), '\n'), linea.end());
         while (!linea.empty() && isspace(linea.front())) linea.erase(linea.begin());
@@ -74,7 +74,7 @@ bool verificarParadaEnArchivo(const string& archivo_ruta, const string& paradaBu
 
         if (linea.empty()) continue; // ignora líneas vacías
 
-        // 🔹 Intentamos comparar como número si es posible
+        // intentamos comparar como número si es posible
         try {
             int valorArchivo = stoi(linea);
             int valorUsuario = stoi(paradaBuscada);
@@ -85,7 +85,7 @@ bool verificarParadaEnArchivo(const string& archivo_ruta, const string& paradaBu
                 break;
             }
         } catch (...) {
-            // Si no es número, comparamos texto exactamente
+            // si no es número, comparamos texto
             if (linea == paradaBuscada) {
                 cout << "\n Parada seleccionada: " << linea << "\n" << endl;
                 encontrada = true;
@@ -144,7 +144,7 @@ void confirmarSolicitud() {
     switch (confirmacion) {
         case 'C':
         case 'c':
-            cout << "Solicitud confirmada y enviada a tu conductor. ¡Gracias por usar EscalApp!" << endl;
+            cout << "Solicitud confirmada y enviada a tu conductor. Gracias por usar EscalApp!" << endl;
             break;
         case 'N':
         case 'n':
