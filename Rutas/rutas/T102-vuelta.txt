@@ -1,0 +1,25 @@
+RUTA T102: SENTIDO CRESPO-PORTAL:
+
+=== PARADAS ===
+1. Tienda Glorimar
+2. Corales de Indias
+3. Terrazas de San Sebastian
+4. Hotel Bellavista
+5. Frente Entrada Cabrero
+6. Frente Hostal Costa Azul
+7. Frente Parque Apolo
+8. El Boquetillo
+9. Boquete Paz Concordia San diego
+
+=== ESTACIONES ===
+1. Centro
+2. Chambacu
+3. Bazurto
+4. El Prado
+5. Maria Auxiliadora
+6. Republica del Libano
+7. Villa Olimpica
+8. Los Angeles
+9. Madre Bernarda
+10. Portal
+
