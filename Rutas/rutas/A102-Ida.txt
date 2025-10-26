@@ -10,4 +10,4 @@ RUTA A102: SENTIDO PORTAL-UTB
 8. Entrada Simon Bolivar 
 9. Quintas del Manantial
 10. Tenaris
-11.	Universidad Tecnologica de Bolivar
+11. Universidad Tecnologica de Bolivar
