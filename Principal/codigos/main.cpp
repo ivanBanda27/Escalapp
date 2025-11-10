@@ -56,7 +56,6 @@ int main() {
     visualizarSolicitud();
     confirmarSolicitud();
   
-  cout << "holaaa";
 
 
   
