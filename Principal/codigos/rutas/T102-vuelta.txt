@@ -12,14 +12,14 @@ RUTA T102: SENTIDO CRESPO-PORTAL:
 9. Boquete Paz Concordia San diego
 
 === ESTACIONES ===
-1. Centro
-2. Chambacu
-3. Bazurto
-4. El Prado
-5. Maria Auxiliadora
-6. Republica del Libano
-7. Villa Olimpica
-8. Los Angeles
-9. Madre Bernarda
-10. Portal
+10. Centro
+11. Chambacu
+12. Bazurto
+13. El Prado
+14. Maria Auxiliadora
+15. Republica del Libano
+16. Villa Olimpica
+17. Los Angeles
+18. Madre Bernarda
+19. Portal
 

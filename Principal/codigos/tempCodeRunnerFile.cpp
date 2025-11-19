@@ -56,10 +56,7 @@ int main() {
     visualizarSolicitud();
     confirmarSolicitud();
   
-<<<<<<< HEAD
-=======
 
->>>>>>> 55cc6e4 (Cambios finales)
 
 
   

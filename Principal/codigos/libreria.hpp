@@ -42,7 +42,7 @@ void seleccionarRuta() { // función para seleccionar la ruta que el usuario tom
         cout << "\nSelecciona una opcion (1-5): ";
         cin >> opcion;
         
-        if (opcion >= 1 and opcion <= 5) {
+        if (opcion >= 1 && opcion <= 5) {
             cout << "Has seleccionado la ruta: " << listaRutas[opcion - 1] << endl << endl;
         } else {
             cout << "Opcion invalida. Ingrese un valor entre 1 y 5.\n";
@@ -165,6 +165,23 @@ void visualizarSolicitud() { // función para mostrar un resumen de la solicitud
     cout << "Parada seleccionada: " << linea << endl;
 }
 
+// Función para guardar solicitud del usuario
+void guardarSolicitud(const string& ruta, const string& sentidoTxt, const string& paradaTxt) {
+    ofstream archivo("solicitudesConductor.txt", ios::app);
+    if (!archivo.is_open()) {
+        cerr << "Error: no se pudo abrir el archivo de solicitudes." << endl;
+        return;
+    }
+
+    archivo << "Ruta: " << ruta << ", Sentido: " << sentidoTxt << ", Parada: " << paradaTxt << endl;
+    archivo.close();
+}
+
+// Función para mostrar la solicitud al conductor
+void mostrarSolicitudConductor(const string& ruta, const string& sentidoTxt, const string& paradaTxt) {
+    cout << "Ruta: " << ruta << ", Sentido: " << sentidoTxt << ", Parada: " << paradaTxt << endl;
+}
+
 void confirmarSolicitud() { // función para que el usuario confirme o cancele la solicitud
     char confirmacion;
     cout << "Ingrese 'C' para confirmar o 'N' para cancelar: ";
@@ -172,9 +189,15 @@ void confirmarSolicitud() { // función para que el usuario confirme o cancele l
 
     switch (confirmacion) {
         case 'C':
-        case 'c':
+        case 'c': {
+            string rutaTxt = listaRutas[opcion - 1];
+            string sentidoTxt = (sentido == 1) ? "IDA" : "VUELTA";
+            guardarSolicitud(rutaTxt, sentidoTxt, linea);
+            mostrarSolicitudConductor(rutaTxt, sentidoTxt, linea);
+
             cout << "\nSolicitud confirmada y enviada a tu conductor.\nGracias por usar EscalApp!\n" << endl;
             break;
+            }
         case 'N':
         case 'n':
             cout << "Solicitud cancelada." << endl;

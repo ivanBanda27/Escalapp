@@ -13,14 +13,14 @@ RUTA T102: SENTIDO: PORTAL-CRESPO
 10. Centro
 
 == PARADAS ===
-1. Parque de la Marina
-2. Teatro Heredia
-3. El Boquetillo
-4. Frente Entrada Cabrero
-5. DATT
-6. Edificio Altamar
-7. Terrazas de San Sebastian
-8. Global Center
-9. Parque Las Americas
-10. Puente crespito
-11. AEROPUERTO
+11. Parque de la Marina
+12. Teatro Heredia
+13. El Boquetillo
+14. Frente Entrada Cabrero
+15. DATT
+16. Edificio Altamar
+17. Terrazas de San Sebastian
+18. Global Center
+19. Parque Las Americas
+20. Puente crespito
+21. AEROPUERTO

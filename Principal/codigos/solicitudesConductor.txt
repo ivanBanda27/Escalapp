@@ -1,0 +1,5 @@
+Ruta: A102, Sentido: IDA, Parada: 2. Colegio Castillo
+Ruta: X102, Sentido: IDA, Parada: 14. Delicias
+Ruta: X103, Sentido: IDA, Parada: 15. La Bodeguita
+Ruta: T102, Sentido: IDA, Parada: 4. Villa Olimpica
+Ruta: T102, Sentido: VUELTA, Parada: 10. Centro
